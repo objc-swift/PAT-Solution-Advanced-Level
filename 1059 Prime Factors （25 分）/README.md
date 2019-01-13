@@ -1,4 +1,5 @@
 # PAT-solution
+链接：https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488
 也可以先构造素数表
 ```
 vector<int> prime(100001,1);
