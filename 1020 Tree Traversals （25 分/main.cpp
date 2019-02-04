@@ -43,7 +43,6 @@ node * create(int *post,int *inorder,int post_from ,int post_to ,int inorder_fro
     // 分解子问题，缩小问题规模
     root->left = create(post, inorder, post_from, post_to - sum_right - 1, inorder_from, rindex-1);
     root->right = create(post, inorder, post_to-sum_right, post_to-1, rindex+1, inorder_to);
-    
     return root;
 }
 
